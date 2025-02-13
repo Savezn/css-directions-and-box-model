@@ -1,1 +1,45 @@
-/* Start coding here */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.page-title-box,.content-post{
+    color: #183B56;
+}
+
+.page-title-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #92AABD;
+    width: 100%;
+    height: 120px;
+}
+
+.page-title {
+    height: 16px;
+    width: 164px;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.content-post {
+    width: 536px;
+    height: 321px;
+    margin-top: 50px;
+    margin-left: 55px;
+    padding: 20px;
+    border: 3px solid black;
+    background-color: #E4E9ED;
+}
+
+.content-topic {
+    font-size: 24px;
+}
+
+img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
